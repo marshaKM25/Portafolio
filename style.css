@@ -1,0 +1,435 @@
+/* Estilos generales */
+body {
+    font-family: 'Raleway', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* Estilos para el menú */
+.menu {
+    background-color: #6833FF ;
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+}
+
+.menu__list {
+    list-style: none;
+    display: flex;
+}
+
+.menu__list__item a {
+    color: #fff;
+    text-decoration: none;
+    margin-right: 20px;
+}
+
+/* Estilos para el título y la bio */
+.title {
+    text-align: center;
+    padding: 50px;
+}
+
+.title__profile {
+    width: 200px;
+    border-radius: 50%;
+}
+
+.title__bio {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.title__subsection {
+    font-size: 18px;
+    color: #666;
+    margin-bottom: 30px;
+}
+
+.title__network {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+}
+
+.title__network__item a {
+    color: #333;
+    text-decoration: none;
+    margin: 0 10px;
+    display: flex;
+    align-items: center;
+}
+
+.title__network__item img {
+    width: 20px;
+    margin-left: 5px;
+}
+
+/* Estilos para las secciones */
+section {
+    padding: 50px;
+}
+
+.about__title, .skills__title, .hobbies__title, .academic__title, .experience__section__title {
+    text-align: center;
+    margin-bottom: 30px;
+    
+}
+
+
+/* Estilos adicionales según tus necesidades */
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f9f9f9;
+    color: #333;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f0f0f0;
+    color: #333;
+}
+
+.skills {
+    padding: 40px 20px;
+    background-color: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin: 20px 0;
+}
+
+.skills__title {
+    text-align: center;
+    font-size: 2em;
+    color: black;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+.skills__line {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+
+.skills__box {
+    background-color: #e0faf6; /* Light blue */
+    border-radius: 8px;
+    padding: 20px;
+    width: 150px;
+    text-align: center;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.skills__box:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+    background-color: burlywood; /* Lighter blue on hover */
+}
+
+.skills__img img {
+    width: 100px;
+    height: 100px;
+    object-fit: contain;
+    margin-bottom: 10px;
+    border-radius: 50%; /* Make the images round */
+   
+}
+
+.skills__name {
+    font-size: 1.2em;
+    color:black; 
+    font-weight: bold;
+}
+
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f9f9f9;
+    color: #333;
+}
+
+.hobbies {
+    padding: 40px 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin: 20px 0;
+}
+
+.hobbies__title {
+    text-align: center;
+    font-size: 2em;
+    color: #333;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+.hobbies__line {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+
+.hobbies__box {
+    background-color: #f4f4f4;
+    border-radius: 8px;
+    padding: 20px;
+    width: 150px;
+    text-align: center;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.hobbies__box:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+}
+
+.hobbies__img img {
+    width: 100px;
+    height: 100px;
+    object-fit: contain;
+    margin-bottom: 10px;
+}
+
+.hobbies__name {
+    font-size: 1.2em;
+    color: #555;
+    font-weight: bold;
+}
+
+
+
+
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f0f0f0;
+    color: #333;
+}
+
+.academic {
+    padding: 40px 20px;
+    background-color: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin: 20px 0;
+}
+
+.academic__title {
+    text-align: center;
+    font-size: 2em;
+    color: #1e90ff; /* Azul vivo */
+    margin-bottom: 20px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+.academic__courses {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.academic__courses__box {
+    display: flex;
+    background-color: #e0f7fa; /* Azul claro */
+    border-radius: 8px;
+    padding: 20px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    align-items: center;
+}
+
+.academic__courses__box:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+    background-color: #b2ebf2; /* Azul más claro en hover */
+}
+
+.academic__courses__left img {
+    width: 100px;
+    height: 100px;
+    object-fit: contain;
+    margin-right: 20px;
+    border-radius: 50%; /* Hace las imágenes redondas */
+    border: 2px solid #1e90ff; /* Borde azul vivo */
+}
+
+.academic__courses__right {
+    display: flex;
+    flex-direction: column;
+}
+
+.academic__courses__item__title {
+    font-size: 1.2em;
+    color: #00796b; /* Verde oscuro */
+    font-weight: bold;
+}
+
+.academic__courses__item__subtitle {
+    font-size: 1em;
+    color: #004d40; /* Verde más oscuro */
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.about {
+    background-color: #f9f9f9;
+    padding: 50px 20px;
+}
+
+.about__container {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.about__title {
+    font-size: 32px;
+    margin-bottom: 20px;
+    text-align: center;
+    background-color: teal;
+}
+
+.about__paragraph {
+    font-size: 18px;
+    line-height: 1.6;
+    margin-bottom: 20px;
+    text-align: justify;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    margin-top: 20px;
+}
+
+
+
+
+
+
+
+/* Estilos para la sección de contacto */
+.form-contacto {
+    background-color: #f9f9f9;
+    padding: 50px 0;
+}
+
+.form-contacto__contacto {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.form-contacto__izquierda {
+    flex: 1;
+    padding-right: 30px;
+}
+
+.form-contacto__img {
+    max-width: 100%;
+    height: auto;
+}
+
+.form-contacto__texto {
+    flex: 1;
+}
+
+.form-contacto__titulo {
+    color: #333;
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+.form-contacto__subtitulo {
+    color: #666;
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.form-contacto__formulario {
+    margin-top: 20px;
+}
+
+.form-contacto__input,
+.form-contacto__textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.form-contacto__boton {
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.form-contacto__boton:hover {
+    background-color: #0056b3;
+}
+
+
+/* Estilos para la sección de Footer */
+.footer {
+    background-color: #6833FF;
+    color: #fff;
+    padding: 20px 0;
+}
+
+.footer__rodape {
+    text-align: center;
+}
+
+.footer__rodape p {
+    margin: 5px 0;
+    font-size: 14px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
